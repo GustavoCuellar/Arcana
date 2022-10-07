@@ -1,0 +1,289 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Arapey', serif;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+/*---------- Header ----------*/
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(255, 253, 253, 0.899)
+}
+
+.bienvenida {
+    width: 100%;
+    height: 470px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgba(255, 192, 203, 0.818); */
+    background-color: rgb(241, 206, 129);
+}
+
+
+.bienvenida h1 {
+    padding: 50px 0 30px 60px;
+    font-weight: 300;
+    font-size: 10rem;
+    text-align: center;
+    letter-spacing: 60px;
+}
+
+.bienvenida p {
+    font-size: 3rem;
+    letter-spacing: 10px;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+header figure {
+    padding-bottom: 70px;
+}
+
+.whts-sticky {
+    display: flex;
+    position: fixed;
+    padding-top: 40px;
+    left: 94.5%;
+
+}
+
+/* ---------- Main ----------*/
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.section-titles {
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 60px;
+    letter-spacing: 15px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* New Products */
+
+.container-new-product {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+.new-product {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.info-new {
+    position: absolute;
+    background-color: black;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info-new>p {
+    color: white;
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+}
+
+.info-new-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-new-product img {
+    width: 95%;
+}
+
+.info-new-product h3 {
+    font-size: 2.5rem;
+    padding-top: 10px;
+    font-weight: 300;
+
+}
+
+.info-new-product>p {
+    padding-top: 7.5px;
+    color: black;
+    font-size: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* Our Products */
+
+.container-our-products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 190px;
+}
+
+.sectionOne {
+    position: relative;
+    display: flex;
+    width: 50%;
+    /*  background-color: red; */
+}
+
+.sectionOne-img figure {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionOne-img img {
+    width: 100%;
+}
+
+.sectionOne-info,
+.sectionTwo-one-info,
+.sectionTwo-two-info {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionOne-info h3 {
+    font-weight: 600;
+    font-size: 5rem;
+    letter-spacing: 5px;
+    padding: 0 0 20px 5px;
+    color: white;
+}
+
+.sectionOne-info button {
+    background: fixed;
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sectionOne-info a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.sectionTwo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    /* background-color: blue; */
+}
+
+.sectionTwo-one,
+.sectionTwo-two {
+    position: relative;
+    display: flex;
+}
+
+.sectionTwo-one-info,
+.sectionTwo-two-info {
+    position: absolute;
+}
+
+.sectionTwo-one-img img,
+.sectionTwo-two-img img {
+    width: 100%;
+}
+
+.sectionTwo-one-info h3,
+.sectionTwo-two-info h3 {
+    font-weight: 600;
+    font-size: 3.5rem;
+    letter-spacing: 5px;
+    padding: 0 0 20px 5px;
+    color: white;
+}
+
+.sectionTwo-one-info button,
+.sectionTwo-two-info button {
+    background: fixed;
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sectionTwo-one-info a,
+.sectionTwo-two-info a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 2px;
+}
+
+/* Contac */
+
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 206, 129);
+}
+
+.contact-content {
+    display: flex;
+    align-items: center;
+}
+
+.contact-content h2 {
+    font-size: 7.5rem;
+    padding: 0 30px;
+    letter-spacing: 30px;
+}
+
+.contact-button {
+    padding-top: 30px;
+}
+
+.contact-button button {
+    background: fixed;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.contact-button a {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 5px;
+}
