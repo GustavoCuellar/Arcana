@@ -52,7 +52,7 @@ header figure {
 .whts-sticky {
     display: flex;
     position: fixed;
-    padding-top: 40px;
+    padding-top: 150px;
     left: 94.5%;
 
 }
@@ -255,7 +255,6 @@ header figure {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(241, 206, 129);
 }
 
 .contact-content {
@@ -286,4 +285,8 @@ header figure {
     text-decoration: none;
     color: black;
     letter-spacing: 5px;
+}
+
+footer {
+    background-color: rgb(241, 206, 129);
 }
